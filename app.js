@@ -29,3 +29,4 @@ app.use('/auth',authRoutes)
 app.listen(app.get('port'), ()=>{
     console.log(`server Running on port ${app.get('port')}`)
 })
+
